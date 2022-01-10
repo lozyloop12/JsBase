@@ -14,7 +14,6 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9F6ECB732B4D5AF466AAEEE5 /* libPods-delivery_lib-delivery_libTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C1F4062E619EDE4009B4DA /* libPods-delivery_lib-delivery_libTests.a */; };
 		BDEF6D715797C53EA308F92A /* libPods-delivery_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 135A048FAD15A2CB968FF6FC /* libPods-delivery_lib.a */; };
-		D76A07A60C51460F9C01DF92 /* Avenir-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E042F39E554FE8859EBE34 /* Avenir-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		816D4AF07D5D67542B68A61E /* Pods-delivery_lib-delivery_libTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-delivery_lib-delivery_libTests.debug.xcconfig"; path = "Target Support Files/Pods-delivery_lib-delivery_libTests/Pods-delivery_lib-delivery_libTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = delivery_lib/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81C1F4062E619EDE4009B4DA /* libPods-delivery_lib-delivery_libTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-delivery_lib-delivery_libTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3E042F39E554FE8859EBE34 /* Avenir-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Avenir-Light.ttf"; path = "../src/assets/fonts/Avenir-Light.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -88,10 +86,8 @@
 		03F73691400B469E9DB1B9B1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D3E042F39E554FE8859EBE34 /* Avenir-Light.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* delivery_lib */ = {
@@ -125,7 +121,6 @@
 				816D4AF07D5D67542B68A61E /* Pods-delivery_lib-delivery_libTests.debug.xcconfig */,
 				53E3E4E59AB70ADE7EBC570F /* Pods-delivery_lib-delivery_libTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -257,7 +252,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				D76A07A60C51460F9C01DF92 /* Avenir-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

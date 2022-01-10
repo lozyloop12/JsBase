@@ -6,10 +6,8 @@ import { getOAuthToken, removeOAuthToken } from "../config/store.config";
 import { multiLanguage } from "../config/strings/I18n";
 import { resetPageWithoutNavigator, Screen } from "../constants";
 
-export const Host = "https://icf-api.volcanly.me";
+export const Host = "";
 export const BaseURL = `${Host}/api/v1/`; // Develop
-export const BaseSocket = "ws://icf-sk.volcanly.me:3000";
-export const BaseCrawl = "http://3.124.188.132:3000"
 
 axios.defaults.baseURL = `${BaseURL}`;
 axios.defaults.timeout = 20000;

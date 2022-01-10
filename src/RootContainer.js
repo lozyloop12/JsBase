@@ -2,6 +2,8 @@ import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 import Main from './navigators';
 import { connect } from 'react-redux'
+import { i18n } from './config'
+import { I18nextProvider } from 'react-i18next'
 // import { Loading } from './components/elements'
 
 class RootContainer extends PureComponent {
@@ -13,8 +15,10 @@ class RootContainer extends PureComponent {
     return (
       <>
         <View style={{ flex: 1 }}>
-          <Main />
-          {/* {this.props.fetching && <Loading />} */}
+          <I18nextProvider i18n={i18n}>
+            <Main />
+            {/* {this.props.fetching && <Loading />} */}
+          </I18nextProvider>
         </View>
       </>
     );

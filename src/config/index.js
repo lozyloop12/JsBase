@@ -1,2 +1,2 @@
 export * from './store.config';
-export * from './strings';
+export * from './translation'
